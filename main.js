@@ -1,2 +1,0 @@
-// JavaScript working with objects
-
