@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Forms Debrief</title>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <form id="feedback" action="" method="post" style="display: flex; flex-direction: column">
+      <!-- name -->
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" minlength="3" maxlength="32" required/>
+      <!-- email -->
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" pattern=".+@example\.com" required/>
+      <!-- message -->
+      <label for="message">Message</label>
+      <textarea name="message" id="message" minlength="16"></textarea>
+    </form>
+    <!-- submit -->
+    <button  id="submitBtn">Submit</button>
+  </body>
+</html>
