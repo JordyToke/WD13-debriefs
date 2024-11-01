@@ -99,7 +99,11 @@ michael.speak();
 // vii. Identify Modules
 // viii. Use Modules to reuse code
 
-const math = require('./math');
+// // Node import
+// const math = require('./math');
+
+// ES6 module import (with namespace)
+import * as math from "./math.js";
 
 // testing
 console.log(math.add(8, 736));
