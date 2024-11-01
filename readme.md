@@ -1,22 +1,17 @@
 # Generation Australia WD13 Debriefs
 
-<details><summary>
+A collection of my debrief exercises from Generation Australia, Web Development cohort 13.
 
-## Description</summary>
+### [HMTL](https://jordytoke.com/WD13-debriefs/html/)
 
-  A collection of my debrief exercises from Generation Australia, Web Development cohort 13.
-</details>
+### [CSS](https://jordytoke.com/WD13-debriefs/htmlAndCss/)
 
-### HMTL
+### [JavaScript](https://jordytoke.com/WD13-debriefs/javascript/)
 
-### CSS
+### [JS Objects and Functions](https://jordytoke.com/WD13-debriefs/objectsAndFunctions/)
 
-### JavaScript
+### [JS and The DOM](https://jordytoke.com/WD13-debriefs/theDOM/)
 
-### JS Objects and Functions
+### [JS Forms](https://jordytoke.com/WD13-debriefs/jsFormsDebrief/)
 
-### JS and The DOM
-
-### JS Forms
-
-### JS Promises
+### [JS Promises](https://jordytoke.com/WD13-debriefs/promises/)
