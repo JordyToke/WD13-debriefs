@@ -23,7 +23,7 @@ const divide = (num1, num2) => {
 }
 
 // para selector
-const para = document.querySelector('#para');
+const para = document.querySelector('#para') ? ;
 
 // calling display function with para as an argument and calculator as a callback with multiply as a callback
 display(para, calculator(5, 4, multiply));
@@ -41,4 +41,5 @@ const displayClock = () => {
   setTimeout(displayClock, 1000);
 }
 
+// run our clock function
 displayClock();
