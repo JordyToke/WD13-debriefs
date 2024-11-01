@@ -1,0 +1,99 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+}
+
+.logo {
+  width: 128px;
+  height: 128px;
+  background-color: #fefade;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-image: re;
+}
+
+main {
+  width: 90vw;
+  margin: auto;
+  margin-top: -5vh;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+.banner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 70vw;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 20%;
+  padding: 40px;
+  .text-content {
+    width: 40vw;
+    h3 {
+      text-align: center;
+    }
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: #e2fefe;
+    transform: rotate(45deg);
+  }
+}
+
+.products {
+  margin: 20px auto;
+  width: 80vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.product {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px;
+  width: 25vw;
+  border: 2px solid black;
+  border-radius: 25%;
+}
+
+.product-image {
+  margin: 8px;
+  min-width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 16px;
+  background-color: #ddebdd;
+}
+.product-details {
+  margin: 8px;
+  button {
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+}
+
+#contact {
+  text-align: center;
+}

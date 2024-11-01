@@ -1,0 +1,158 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.customHeader {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  color: rebeccapurple;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  background: #bbb;
+  z-index: 1;
+}
+
+.navBar {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: stretch;
+  padding: 0px;
+  li {
+    flex: 1;
+    text-align: center;
+    &:hover {
+      background-color: #222;
+      a {
+        color: aqua;
+      }
+    }
+  }
+}
+
+.textBox {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid red;
+  background-color: tan;
+}
+
+.relativeBtn {
+  position: relative;
+  left: 400px;
+}
+
+.absImg {
+  height: 300px;
+  width: auto;
+  position: absolute;
+  right: 40px;
+  top: 20px;
+}
+
+.colorText {
+  color: orange;
+}
+
+.colorHex {
+  color: #f0f;
+}
+
+.colorRgb {
+  color: rgb(0, 255, 0);
+}
+
+/* section background colour styling */
+
+#one {
+  background-color: #eee;
+}
+#two {
+  background-color: #bbb;
+}
+#three {
+  background-color: #888;
+}
+#four {
+  background-color: #555;
+}
+#five {
+  background-color: #222;
+}
+
+#seven {
+  background-color: tan;
+}
+
+/* typography */
+
+#six {
+  font-size: x-large;
+  font-weight: ;
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+  }
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+  }
+
+  .spaced {
+    font-weight: 200;
+    letter-spacing: 0.06em;
+    line-height: 1.5;
+  }
+}
+
+/* grid */
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  width: 80vw;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  gap: 20px;
+}
+
+.item {
+  background-color: coral;
+  &:nth-child(6n + 1),
+  &:nth-child(6n + 5) {
+    grid-column: auto/span 2;
+    grid-row: auto/span 2;
+  }
+}
+
+/* CSS transitions */
+.scene {
+  width: 100%;
+  height: 400px;
+  background-color: #bbb;
+  padding: 16px;
+}
+
+.ball {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #d2b48c;
+  border: 1px solid #222;
+  border-radius: 50%;
+  left: 0vw;
+  transform: scale(100%);
+  transition-duration: 5s;
+  transition-property: left, transform;
+  &:hover {
+    transition-property: left, transform;
+    left: 100vw;
+    transform: scale(20%);
+  }
+}
+
