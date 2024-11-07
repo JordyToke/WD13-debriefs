@@ -10,15 +10,18 @@
     <form id="feedback" action="" method="post" style="display: flex; flex-direction: column">
       <!-- name -->
       <label for="name">Name</label>
-      <input type="text" name="name" id="name" minlength="3" maxlength="32" required/>
+      <input type="text" name="name" id="name" minlength="3" maxlength="32" required />
+      <!-- Age -->
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age" min="13" max="130" required oninput="this.reportValidity()" />
       <!-- email -->
       <label for="email">Email</label>
-      <input type="email" name="email" id="email" pattern=".+@example\.com" required/>
+      <input type="email" name="email" id="email" pattern=".+@example\.com" required />
       <!-- message -->
       <label for="message">Message</label>
       <textarea name="message" id="message" minlength="16"></textarea>
     </form>
     <!-- submit -->
-    <button  id="submitBtn">Submit</button>
+    <button id="submitBtn">Submit</button>
   </body>
 </html>
