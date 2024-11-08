@@ -6,9 +6,9 @@ async function getProductData(url) {
       throw new Error(`Response status: ${response.status}`);
     }
     // wait for response json to be parsed and print it to console
-    const responseJson = await response.json();
-    console.log(responseJson);
-    return responseJson;
+    const jsonResponse = await response.json();
+    console.log(jsonResponse);
+    return jsonResponse;
   } catch (error) {
     console.error(error.message);
   }
