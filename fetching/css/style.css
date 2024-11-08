@@ -1,0 +1,15 @@
+table {
+  border-collapse: collapse;
+}
+
+tr:nth-child(2n), thead {
+  background-color: #EEE;
+}
+th {
+  font-variant: small-caps;
+}
+
+table, tr, th, td, thead {
+  border-style: inset;
+  border: 2px;
+}
