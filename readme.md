@@ -17,3 +17,5 @@ A collection of my debrief exercises from Generation Australia, Web Development 
 ### [JS Promises](https://jordytoke.com/WD13-debriefs/promises/)
 
 ### [Fetching API](https://jordytoke.com/WD13-debriefs/fetching/)
+
+### [Unit Testing with Mocha and Chai](https://jordytoke.com/WD13-debriefs/mochaAndChai/)
