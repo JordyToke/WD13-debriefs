@@ -123,8 +123,8 @@ nav {
 
 .item {
   background-color: coral;
-  &:nth-child(6n + 1),
-  &:nth-child(6n + 5) {
+  &:nth-child(12n + 1),
+  &:nth-child(12n + 8) {
     grid-column: auto/span 2;
     grid-row: auto/span 2;
   }
